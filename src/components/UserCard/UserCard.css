@@ -1,0 +1,82 @@
+.UserCard {
+    width: 450px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 50px auto;
+    display:  flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.UPofCard {
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+    align-items: center;
+   
+}
+
+.DOWNofCard {
+    background-color: rgb(29, 90, 128);
+    color:white;
+}
+
+.UserName {
+    font-size: 25px;
+    padding-right: 25%;
+}
+
+.userDescription {
+    padding-left: 5px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.buttonsContacts {
+    display: flex;
+    font-size: 14px;
+
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Massage, .Following {
+    display: flex;
+    align-items: center;
+    border:1px solid black;
+    padding: 3px;
+    margin: 20px 2px;
+
+}
+
+.Following {
+    border:3px solid green;
+}
+
+.Massage {
+    margin-left: 15px;
+    background-color: rgb(21,67,96);
+}
+
+.logoContacts {
+    display: flex;
+    
+}
+
+.logoContacts {
+    margin: 5%;
+}
+
+.socialMediaIcon {
+    padding-left: 10px;
+}
+
+
+
+ 
